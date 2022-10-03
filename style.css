@@ -1,0 +1,31 @@
+/* Colocando image */
+body { 
+  background-image: url(./wpp.jpg);
+  background-size: cover;
+}
+
+div#jogo {
+  margin: 0px auto;
+  text-align: center;
+  font-family: 'Impact', sans-serif;
+  font-size: 350%;
+  color: #40D7D3;
+  text-shadow: 2px 2px 5px #000;
+}
+
+input { 
+	background-color: black;
+	border: 2px solid purple;
+	border-radius: 5%;
+	font-family: 'Impact', sans-serif;
+  font-size: 300%;
+  color: #40D7D3;
+  padding: 8px 16px;
+  margin-top: -5%;
+  outline-style: none;
+  margin-left: 18%;
+}
+
+p { 
+  margin-top: 0; 
+}

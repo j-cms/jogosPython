@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/icon.png" type="image/x-icon">
+  <!-- Referenciando o .css -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>꧁Jogo Da Vida꧂</title>
+</head>
+<body>
+  <br><br><br>
+  <!-- Botões de controle -->
+  <input type="button" value="Stop" onclick="stop()">
+  <input type="button" value="Run" onclick="run()">
+  <input type="button" value="Start Again" onclick="startag()">
+  <br><br><br>
+  <!-- Bloco do jogo -->
+  <div id="jogo">
+    <!-- Canvas API-->
+  	<canvas></canvas>
+  	<p>Jogo da Vida de Conway</p>
+  </div>
+  <!-- Script do jogo -->
+  <script src="script.js"></script>
+
+</body>
+</html>
